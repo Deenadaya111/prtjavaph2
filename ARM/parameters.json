@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "776288f7-e30d-4e20-b228-f6e9dad873c4"
+        },
+        "resourceGroupName": {
+            "value": "rg00"
+        },
+        "name": {
+            "value": "webappnewph2"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-rg00-8deb"
+        },
+        "serverFarmResourceGroup": {
+            "value": "rg00"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "linuxFxVersion": {
+            "value": "JAVA|17-java17"
+        }
+    }
+}
